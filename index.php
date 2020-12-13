@@ -7,9 +7,9 @@
     <div id = "top">
                 <p><span class =pan1>while</span>(noSucess)</p>
                 <p>{</p>
-                <p>  &nbsp&nbsp&nbsp&nbsptryAgain();</p>
-                <p>  &nbsp&nbsp&nbsp&nbsp<span class = pan1>if</span>(Dead);</p>
-                <p>  &nbsp&nbsp&nbsp&nbsp<span class = pan1>break</span>;</p>
+                <p>  &nbsp&nbsp&nbsptryAgain();</p>
+                <p>  &nbsp&nbsp&nbsp<span class = pan1>if</span>(Dead);</p>
+                <p>  &nbsp&nbsp&nbsp<span class = pan1>break</span>;</p>
                 
                 <p>}</p>
     </div>
@@ -89,12 +89,16 @@
                   </div>
             <button type="submit"  class="btn btn-dark" name="submit" onclick="sendEmail()" value="Send an Email">Submit</button>
             </form>
-
+            
+            
             <div class="footer">
-            <div><i class="fa fa-envelope fa-5x" style="color:white" aria-hidden="true"></i></div>
-            <div><i class="fa fa-github fa-5x" style="color:white" aria-hidden="true"></i></div>
-            <i class="fa fa-linkedin-square fa-5x"  style="color:white" aria-hidden="true"></i></div>
- </div>   
+            <div><a href ="https://github.com/Hammertonmutuku?tab=repositories" target="_blank"><img src="images/github.png" height= "30px" width = "35px" margin-right ="10px"></a></div>
+            <div><img src="images/gmail.png" height= "30px" width = "35px"></div>
+            <div><a href ="https://www.linkedin.com/in/hammerton-mutuku-8968611a5/" target="_blank"><img src="images/linkedin.png" height= "30px" width = "35px"></a></div>
+            <div>
+            
+           
+    
 </div>
       
 

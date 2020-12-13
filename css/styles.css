@@ -33,9 +33,7 @@ input.form-control,input.form-control:focus {
 .btn-dark:hover{
     background-color: yellow;
 }
-.footer{
- font-size: 3px;
-}
+
  .anime1 {
     display: flex;
     flex-direction: column;
@@ -48,21 +46,21 @@ input.form-control,input.form-control:focus {
 }
 .more {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Forum', cursive;
 }
 .anime1 p {
     border-right:0m solid orange;
     font-family: 'Inconsolata', monospace;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     white-space: nowrap;
     overflow: hidden;
   }
 .anime1 p:nth-child(1) {
     width: 9.3em;
-    -webkit-animation: type 3s steps(40, end);
-    animation: type 3s steps(40, end);
+    -webkit-animation: type 3s steps(33, end);
+    animation: type 3s steps(33, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -70,8 +68,8 @@ input.form-control,input.form-control:focus {
   .anime1 p:nth-child(2) {
     width: 1.5em;
     opacity: 0;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
+    -webkit-animation: type2 2s steps(20, end);
+    animation: type2 2s steps(20, end);
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     -webkit-animation-fill-mode: forwards;
@@ -81,8 +79,8 @@ input.form-control,input.form-control:focus {
   .anime1 p:nth-child(3) {
     width: 10.5em;
     opacity: 0;
-    -webkit-animation: type2 4s steps(40, end);
-    animation: type2 4s steps(40, end);
+    -webkit-animation: type2 4s steps(20, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 6s;
     animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
@@ -215,7 +213,7 @@ p {
 
 }
 #top {
-  padding-left: 6rem;
+  padding-left: 4rem;
 }
 #top2 {
     margin-top: 15rem;
@@ -274,6 +272,7 @@ display:none;
   ul {
     list-style: none;
   }
+  
   .skil{
     font-size: 2em;
     color: white;
@@ -316,7 +315,14 @@ display:none;
   }
   .footer{
     margin-top: 10px;
-  }
+    display: flex;
+    justify-content: center;
+    }
+    .footer, img {
+      margin-left: 13px;
+      margin-top: 21px;
+      margin-bottom: 11px;
+    }
   
    @media (max-width: 600px ){
     .anime1{
@@ -349,9 +355,15 @@ display:none;
       
     }
     a.navbar-brand{
-      font-size: 15px;
+      font-size: 14px;
     }
    }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+  .a.navbar-brand{
+    font-weight: 10px;
+  }
+}
    /* iphone x,11,12 mini pixel 2xl*/
    @media only screen and (min-device-width: 375px) and (max-device-height: 823px) and (-webkit-device-pixel-ratio: 3) {
     .anime1{
