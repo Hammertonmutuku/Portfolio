@@ -40,8 +40,8 @@
                 <span class ="middle1" id = "projects">Projects</span>
                  <div class = "row">
                     <div class = "col-lg-4 col-sm-12 mx-auto p-2">
-                      <a href="https://hammertonmutuku.github.io/Porfolio/"><img src = "images/msaada.jpg" class ="img-fluid p1" id="project1"></a>
-                         <p class="text" id="text1">Portfolio</p>
+                      <a href="https://msaada254.herokuapp.com/"><img src = "images/msaada.jpg" class ="img-fluid p1" id="project1"></a>
+                         <p class="text" id="text1">Msaada</p>
                     </div>
                     <div class = "col-lg-4 col-sm-12 mx-auto p-2">
                     <a href="https://hammertonmutuku.github.io/pizzah/"><img src = "images/PIZA.jpg" class ="img-fluid p1" id="project2"></a>
