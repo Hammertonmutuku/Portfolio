@@ -40,7 +40,7 @@
                 <span class ="middle1" id = "projects">Projects</span>
                  <div class = "row">
                     <div class = "col-lg-4 col-sm-12 mx-auto p-2">
-                      <a href="https://hammertonmutuku.github.io/Porfolio/"><img src = "images/PORT12.jpg" class ="img-fluid p1" id="project1"></a>
+                      <a href="https://hammertonmutuku.github.io/Porfolio/"><img src = "images/msaada.jpg" class ="img-fluid p1" id="project1"></a>
                          <p class="text" id="text1">Portfolio</p>
                     </div>
                     <div class = "col-lg-4 col-sm-12 mx-auto p-2">
