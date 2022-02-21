@@ -1,42 +1,30 @@
-<?php
-use PHPMailer\PHPMailer\PHPMailer;
+<?php 
+    $title = 'Hammerton.Mutuku';
+    include 'includes/header.php' 
+?>
+<span class ="middle1" id = "contacts">Contacts</span>
+             <h4 class="sent-notification"></h4>
+    <form class="contact-form" action="contact.php" id="myForm" method="post">
+                    <div class="form-group p-1">
+                        <label for="name" style="color:white;">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+                    </div>
+                    <div class="form-group p-1">
+                        <label for="exampleInputEmail1" style="color:white;">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" name="email">
+                    </div>
+                    <div class="form-group p-1">
+                        <label for="subject" style="color:white;">Subject </label>
+                        <input type="text" class="form-control" id="subject" name="subject"  placeholder="Hire/Consolt...">
+                    </div>
+                    <div class="form-group p-1">
+                        <textarea class="form-control p-1" id="body"   placeholder="Your message here ..." required name="body"></textarea>
+                          </div>
+                    <button type="submit"  class="btn btn-dark p-1" name="submit" onclick="sendEmail()" value="Send an Email">Submit</button>
+                    </form>
+  </div>
 
-if (isset($_POST['name']) && isset($_POST['email'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $body = $_POST['body'];
-    
-    require_once "PHPMailer/PHPMailer.php";
-    require_once "PHPMailer/SMTP.php";
-    require_once "PHPMailer/Exception.php";
-
-    $mail = new PHPMailer();
-     //smpt settings
-    // $mail->SMTPDebug = 4;
-     $mail->isSMTP();
-     $mail->Host = "smtp.gmail.com";
-     $mail->SMTPAuth = true;
-     $mail->Username = "hammertonmutuku@gmail.com";
-     $mail->Password = 'qwerty@zx12';
-     $mail->port = 585;
-     $mail->SMTPSecure = "tls";
-     
-     //email settings
-     $mail->isHTML(true);
-     $mail->setFrom($email, $name);
-     $mail->addAddress("hammertonmutuku@gmail.com");
-     $mail->Subject = ("$email, $subject");
-     $mail->Body = $body;
-
-    if($mail->send()){
-        $status = "success";
-        $response = "Email is sent";
-    }else{
-        $status = "failed";
-        $response = "Something is wrong;<br>" .$mail->ErrorInfo;
-    }
-    exit(json_encode(array("status" => $status, "response" => $response)));
-}
-
+<?php 
+    $title = 'Hammerton.Mutuku';
+    include 'includes/footer.php' 
 ?>

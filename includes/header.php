@@ -2,31 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo $title ?></title>
-    <link rel="icon" type="image/jpg" href="images/h-logo1.png">
-    <link rel = "stylesheet" type= "text/css" href="./css/styles.css">  
-    <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>hammertonMutuku</title>
 </head>
 <body>
-    <div class = "container">
-        <!-- navigation bar -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-transparent ">
-            <a class="navbar-brand" href="index.php"><img class="img-fluid logo" src="./images/h-logo1.png"
-                    alt="logo" height= "86px" width = "46px"> HammertonMutuku</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto mynav">
-                    <a class="nav-item nav-link" href="#about">About </a>
-                    <a class="nav-item nav-link" href="#projects">My work</a>
-                    <a class="nav-item nav-link" href="#contact">Contact</a>
-
-                </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+        <a class="navbar-brand" href="index.php"> hammertonMutuku</a>
+           <div class="d-none d-lg-inline navbar-nav ms-auto mynav">
+                <a class="d-inline nav-item nav-link" href="about.php">About </a>
+                <a class="d-inline nav-item nav-link" href="projects.php">My work</a>
+                <a class="d-inline nav-item nav-link" href="contact.php">Contact</a>
             </div>
-        </nav>
+        <!-- nav bar on phones -->
+        <div class = "nav2 d-lg-none">
+            <div class="menu-btn"></div>
+	        <div class="overlay"></div>
+            <div class="menu-container">
+                <ul class="menu-wrapper">
+                <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="projects.php">Projects</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+                <div class="menu-underlay"></div> 
+            </div>
+        </div>
+    </nav>
+    <div class="container">
