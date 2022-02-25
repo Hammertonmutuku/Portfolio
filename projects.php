@@ -8,7 +8,7 @@
         <div class = "row">
            <div class = "col-lg-6 col-sm-12 mx-auto bja">
             <figure class="effect-zoe">
-             <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/living-out.jpg"class ="img-fluid " id="project1"></a>
+             <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/livingout.jpg" class ="img-fluid " id="project1"></a>
                 <p class="text" id="text1">Msaada</p>
                 <figcaption>
                     <h2>Creative <span>Zoe</span></h2>
@@ -24,7 +24,7 @@
             </div>
         <div class = "col-lg-6 col-sm-12 mx-auto">
                     <figure class="effect-zoe">
-                     <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/living-out.jpg" class ="img-fluid p1" id="project1"></a>
+                     <a href="https://msaada254.herokuapp.com/"><img src ="images/projects/livingout.jpg" class ="img-fluid p1" id="project1"></a>
                         <p class="text" id="text1">Msaada</p>
                         <figcaption>
                             <h2>Creative <span>Zoe</span></h2>
@@ -41,7 +41,7 @@
            <div class = "row">
             <div class = "col-lg-6 col-sm-12 mx-auto bja">
              <figure class="effect-zoe">
-              <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/living-out.jpg" class ="img-fluid " id="project1"></a>
+              <a href="https://msaada254.herokuapp.com/"><img src = "iimages/projects/livingout.jpg" class ="img-fluid " id="project1"></a>
                  <p class="text" id="text1">Msaada</p>
                  <figcaption>
                      <h2>Creative <span>Zoe</span></h2>
@@ -57,7 +57,7 @@
              </div>
          <div class = "col-lg-6 col-sm-12 mx-auto">
                      <figure class="effect-zoe">
-                      <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/living-out.jpg" class ="img-fluid p1" id="project1"></a>
+                      <a href="https://msaada254.herokuapp.com/"><img src = "images/projects/livingout.jpg" class ="img-fluid p1" id="project1"></a>
                          <p class="text" id="text1">Msaada</p>
                          <figcaption>
                              <h2>Creative <span>Zoe</span></h2>
