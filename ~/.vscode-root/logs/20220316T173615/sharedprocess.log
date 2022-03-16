@@ -1,0 +1,15 @@
+[2022-03-16 17:36:20.770] [sharedprocess] [info] Starting worker process with pid 54608 (type: fileWatcher, window: 1).
+[2022-03-16 17:36:23.667] [sharedprocess] [info] Getting Manifest... onecentlin.laravel-blade
+[2022-03-16 17:36:23.670] [sharedprocess] [info] Getting Manifest... ritwickdey.liveserver
+[2022-03-16 17:36:25.530] [sharedprocess] [info] Installing extension: onecentlin.laravel-blade
+[2022-03-16 17:36:33.411] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2022-03-16 17:36:33.500] [sharedprocess] [info] Downloaded extension: onecentlin.laravel-blade /opt/lampp/htdocs/Portfolio/~/.vscode-root/CachedExtensionVSIXs/onecentlin.laravel-blade-1.32.0
+[2022-03-16 17:36:34.382] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.5cc76d04-b0f0-4cf2-827d-b6d6d78d528d: onecentlin.laravel-blade
+[2022-03-16 17:36:34.402] [sharedprocess] [info] Renamed to /root/.vscode/extensions/onecentlin.laravel-blade-1.32.0
+[2022-03-16 17:36:34.408] [sharedprocess] [info] Extracting completed. onecentlin.laravel-blade
+[2022-03-16 17:36:34.428] [sharedprocess] [info] Extension installed successfully: onecentlin.laravel-blade
+[2022-03-16 17:36:36.845] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /opt/lampp/htdocs/Portfolio/~/.vscode-root/CachedExtensionVSIXs/ritwickdey.liveserver-5.7.5
+[2022-03-16 17:36:38.145] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.0b7e603e-4eca-42cc-9cf1-3f826bda0393: ritwickdey.liveserver
+[2022-03-16 17:36:38.162] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ritwickdey.liveserver-5.7.5
+[2022-03-16 17:36:38.166] [sharedprocess] [info] Extracting completed. ritwickdey.liveserver
+[2022-03-16 17:36:38.180] [sharedprocess] [info] Extension installed successfully: ritwickdey.liveserver

@@ -5,3 +5,15 @@
 [2022-02-25 21:20:35.053] [main] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Unknown or unsupported transport “disabled” for address “disabled:”
 [2022-02-25 21:21:02.602] [main] [info] update#setState checking for updates
 [2022-02-25 21:21:02.604] [main] [info] update#setState idle
+[2022-02-25 22:21:02.702] [main] [info] update#setState checking for updates
+[2022-02-25 22:21:02.705] [main] [info] update#setState idle
+[2022-02-27 11:27:28.531] [main] [info] update#setState checking for updates
+[2022-02-27 11:27:28.534] [main] [info] update#setState idle
+[2022-02-27 12:27:30.152] [main] [info] update#setState checking for updates
+[2022-02-27 12:27:30.156] [main] [info] update#setState idle
+[2022-02-27 16:25:24.685] [main] [info] update#setState checking for updates
+[2022-02-27 16:25:24.691] [main] [info] update#setState idle
+[2022-02-27 17:25:24.788] [main] [info] update#setState checking for updates
+[2022-02-27 17:25:24.800] [main] [info] update#setState idle
+[2022-02-27 18:25:24.896] [main] [info] update#setState checking for updates
+[2022-02-27 18:25:24.900] [main] [info] update#setState idle
