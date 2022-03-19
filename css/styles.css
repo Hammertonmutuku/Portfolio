@@ -264,6 +264,7 @@ figure h2 {
 
 figure h2 span {
 	font-weight: 800;
+ 
 }
 
   figure.effect-zoe figcaption {
@@ -272,7 +273,7 @@ figure h2 span {
     padding: 1em;
     height: 3.75em;
     background: white;
-    color: #3c4a50;
+    color: #3c4a50 !important;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,100%,0);

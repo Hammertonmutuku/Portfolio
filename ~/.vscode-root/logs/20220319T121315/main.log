@@ -6,3 +6,5 @@
 [2022-03-19 12:13:17.125] [main] [info] ExtensionHostStarterWorker.start() took 14 ms.
 [2022-03-19 12:13:45.234] [main] [info] update#setState checking for updates
 [2022-03-19 12:13:45.239] [main] [info] update#setState idle
+[2022-03-19 13:13:45.237] [main] [info] update#setState checking for updates
+[2022-03-19 13:13:45.246] [main] [info] update#setState idle
