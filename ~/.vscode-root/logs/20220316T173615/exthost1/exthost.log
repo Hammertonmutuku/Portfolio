@@ -27,3 +27,11 @@
 [2022-03-16 17:37:38.438] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
 [2022-03-16 17:37:43.511] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 560
 [2022-03-16 17:37:48.584] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+[2022-03-16 17:37:53.656] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 563
+[2022-03-16 17:37:58.779] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 567
+[2022-03-16 17:38:03.854] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 569
+[2022-03-16 17:38:08.938] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 569
+[2022-03-16 17:38:14.064] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 569
+[2022-03-16 17:38:27.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-03-16 17:39:40.383] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-16 17:39:40.393] [exthost] [info] Extension host with pid 54559 exiting with code 0

@@ -24,7 +24,7 @@
             </div>
         <div class = "col-lg-6 col-sm-12 mx-auto">
                     <figure class="effect-zoe">
-                     <a href="livingout.co.ke"><img src ="images/projects/livingout.jpg" class ="img-fluid p1" id="project1"></a>
+                     <a href="msaada.livingout.co.ke"><img src ="images/projects/msaada.jpg" class ="img-fluid p1" id="project1"></a>
                         <p class="text" id="text1">Msaada</p>
                         <figcaption>
                             <h2>Creative <span>Zoe</span></h2>
