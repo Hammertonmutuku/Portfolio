@@ -7,9 +7,9 @@
         <span class ="middle1" id = "projects">Projects</span>
         <div class = "row">
            <div class = "col-lg-6 col-sm-12 mx-auto bja">
-            <figure class="effect-zoe">
-             <a href="livingout.co.ke"><img src = "images/projects/livingout.jpg" class ="img-fluid " id="project1"></a>
-                <p class="text" id="text1">Living out</p>
+           <a href="livingout.co.ke"><figure class="effect-zoe">
+            <img src = "images/projects/livingout.jpg" class ="img-fluid " id="project1">
+            <p class="text" id="text1">Living out</p>
                 <figcaption>
                     <h2>Living <span>Out</span></h2>
                     <p class="icon-links">
@@ -19,7 +19,7 @@
                     </p>
                     <p class="description"> A website for a charity organisation</p>
                   </figcaption> 
-                  </figure>  
+                  </figure></a> 
                 
             </div>
         <div class = "col-lg-6 col-sm-12 mx-auto">
